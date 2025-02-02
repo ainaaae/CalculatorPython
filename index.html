@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="Calculator.py" type="text/python"></script>
+</head>
+<body>
+    <h1>Calculator</h1>
+    <form action="Calculator.py" method="post">
+        <input type="text" name="num1" placeholder="Number 1">
+        <input type="text" name="num2" placeholder="Number 2">
+        <select name="operation">
+            <option>Add</option>
+            <option>Subtract</option>
+            <option>Multiply</option>
+            <option>Divide</option>
+        </select>
+        <button type="button" onclick="calculate()">Calculate</button>
+    </form>
+    <p id="result">The result is: </p>
+
+</body>
+</html>

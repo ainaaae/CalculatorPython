@@ -15,10 +15,4 @@ The calculator supports the following operations:
 5. **Square Root**: Calculates the square root of a single number.
 6. **Square a Number**: Squares a single number and displays the result.
 
----
 
-## Usage
-
-1. **Run the Script**: Execute the script using Python in your terminal or IDE:
-   ```bash
-   python calculator.py
